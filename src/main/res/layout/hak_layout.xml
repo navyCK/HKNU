@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/hak_img"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/hak_btn1"
+            android:drawableTop="@drawable/hak1"
+            android:paddingTop="40dp"
+            android:onClick="mOnPopupClick5"
+            android:text="대학 일자리 센터"
+            android:background="@drawable/button_background"
+            android:layout_margin="5dp"
+            android:layout_width="120dp"
+            android:layout_height="160dp" />
+        <Button
+            android:id="@+id/hak_btn2"
+            android:drawableTop="@drawable/hak2"
+            android:paddingTop="40dp"
+            android:onClick="mOnPopupClick6"
+            android:text="학생과"
+            android:background="@drawable/button_background"
+            android:layout_margin="5dp"
+            android:layout_width="120dp"
+            android:layout_height="160dp" />
+        <Button
+            android:id="@+id/hak_btn3"
+            android:drawableTop="@drawable/hak3"
+            android:paddingTop="40dp"
+            android:onClick="mOnPopupClick7"
+            android:text="보건소"
+            android:background="@drawable/button_background"
+            android:layout_margin="5dp"
+            android:layout_width="120dp"
+            android:layout_height="160dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/hak_btn4"
+            android:drawableTop="@drawable/hak4"
+            android:paddingTop="40dp"
+            android:onClick="mOnPopupClick8"
+            android:text="서점"
+            android:background="@drawable/button_background"
+            android:layout_margin="5dp"
+            android:layout_width="120dp"
+            android:layout_height="160dp" />
+        <Button
+            android:id="@+id/hak_btn5"
+            android:drawableTop="@drawable/bus"
+            android:paddingTop="40dp"
+            android:text="-"
+            android:background="@drawable/button_background"
+            android:visibility="invisible"
+            android:layout_margin="5dp"
+            android:layout_width="120dp"
+            android:layout_height="160dp" />
+        <Button
+            android:id="@+id/hak_btn6"
+            android:drawableTop="@drawable/hak6"
+            android:paddingTop="40dp"
+            android:text="신한은행"
+            android:background="@drawable/button_background"
+            android:layout_margin="5dp"
+            android:layout_width="120dp"
+            android:layout_height="160dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/hak_btn7"
+            android:drawableTop="@drawable/hak7"
+            android:paddingTop="40dp"
+            android:text="식당"
+            android:background="@drawable/button_background"
+            android:layout_margin="5dp"
+            android:layout_width="120dp"
+            android:layout_height="160dp" />
+        <Button
+            android:id="@+id/hak_btn8"
+            android:drawableTop="@drawable/hak8"
+            android:paddingTop="40dp"
+            android:text="엘리베이터"
+            android:background="@drawable/button_background"
+            android:layout_margin="5dp"
+            android:layout_width="120dp"
+            android:layout_height="160dp" />
+        <Button
+            android:id="@+id/hak_btn9"
+            android:drawableTop="@drawable/hak9"
+            android:paddingTop="40dp"
+            android:text="ATM"
+            android:background="@drawable/button_background"
+            android:layout_margin="5dp"
+            android:layout_width="120dp"
+            android:layout_height="160dp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Map">
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/engineer_2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="980dp"
+                android:layout_marginTop="270dp"
+                android:background="#00ff0000" />
+
+            <Button
+                android:id="@+id/student_hall"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="405dp"
+                android:layout_marginTop="245dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+
+            <Button
+                android:id="@+id/map_23"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="430dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_15"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="885dp"
+                android:layout_marginTop="450dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_20"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="470dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_24"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="240dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="410dp"
+                android:layout_marginTop="410dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_17"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="345dp"
+                android:layout_marginTop="70dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_22"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="500dp"
+                android:layout_marginTop="110dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="510dp"
+                android:layout_marginTop="180dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_21"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="530dp"
+                android:layout_marginTop="60dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_9"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="600dp"
+                android:layout_marginTop="110dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_18"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="510dp"
+                android:layout_marginTop="320dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_13"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="630dp"
+                android:layout_marginTop="360dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="690dp"
+                android:layout_marginTop="410dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="650dp"
+                android:layout_marginTop="250dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_12"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="700dp"
+                android:layout_marginTop="170dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_14"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="770dp"
+                android:layout_marginTop="210dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_16"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="730dp"
+                android:layout_marginTop="80dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_19"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="675dp"
+                android:layout_marginTop="40dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="930dp"
+                android:layout_marginTop="220dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="1060dp"
+                android:layout_marginTop="330dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_10"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="910dp"
+                android:layout_marginTop="135dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <Button
+                android:id="@+id/map_4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="810dp"
+                android:layout_marginTop="140dp"
+                android:background="#00ff0000"
+                android:onClick="mOnPopupClick2" />
+
+            <ImageView
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/hknu_map" />
+
+        </RelativeLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

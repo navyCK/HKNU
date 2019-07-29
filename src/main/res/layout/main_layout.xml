@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/btnHelp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        android:background="#91b3bc"
+                        android:drawableTop="@drawable/help"
+                        android:paddingTop="45dp"
+                        android:gravity="bottom|right"
+                        android:onClick="mOnPopupClick"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:text="도움말  "></Button>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="right|bottom"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/haksa"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:drawableTop="@drawable/calendar"
+                        android:paddingTop="45dp"
+                        android:gravity="bottom|right"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_margin="3dp"
+                        android:background="#9AABB9"
+                        android:textColor="#000"
+                        android:text="학사 일정  " />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btnMap"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:background="#BBDED6"
+                    android:drawableTop="@drawable/map"
+                    android:gravity="bottom|right"
+                    android:paddingTop="80dp"
+                    android:text="지도  "
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btnBus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@drawable/bus_big"
+                    android:paddingLeft="120dp"
+                    android:gravity="bottom|right"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_margin="3dp"
+                    android:background="#91b3bc"
+                    android:textColor="#000"
+                    android:text="버스 시간표  " />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/meal_menu"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#BBDED6"
+                        android:drawableTop="@drawable/meal"
+                        android:paddingTop="45dp"
+                        android:gravity="bottom|right"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_margin="3dp"
+                        android:textColor="#000"
+                        android:text="식단표  "/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:onClick="mOnPopupClick1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#657973"
+                        android:paddingTop="45dp"
+                        android:drawableTop="@drawable/dev"
+                        android:gravity="bottom|right"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_margin="3dp"
+                        android:textColor="#000"
+                        android:text="제작자  "/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
